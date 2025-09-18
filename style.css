@@ -1,0 +1,32 @@
+
+.calendar th, .calendar td {
+    text-align: center;
+    padding: 10px;
+  } 
+
+.week-no {
+  color: black;
+  text-align: center;
+  font-weight: bold;
+}
+
+  .calendar .today {
+    background-color: #ffeb3b;
+  }
+  
+  .calendar body, h3 {
+    background-color: lightgrey;
+  }
+  
+  .calendar thead, th {
+    color: red;
+    background-color: lightgrey;
+  }
+  
+  .calendar body {
+    color: bisque;
+ }
+ .calendar td:hover {
+    background-color: lightgrey;
+    cursor: pointer;
+  }
